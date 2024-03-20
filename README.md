@@ -7,35 +7,20 @@ To play the game, you need to have Python and Pygame installed on your system. F
 
 ## Prerequisites
 
-Python 3.x
-pip (Python package installer)
-
-## Installing Python
-
-If you don't have Python installed, download it from the official website:
-https://www.python.org/downloads/
-Follow the installation instructions for your operating system.
-
-## Installing Pygame
-
-Once Python is installed, you can install Pygame using pip. Open your terminal or command prompt and run the following command:
-pip install pygame
-
-## Downloading the Game
-
-You can download the game by cloning the repository from GitHub:
-git clone https://github.com/your-username/snake-game.git
-cd snake-game
-Replace your-username with the actual username where the repository is hosted.
-
-## Configuration
-
-Before running the game, make sure to configure the config.json file according to your display preferences.
+1. install python3 using Homebrew (macOS): `brew install python3`
+2. add these aliases to your zshrc or bashrc to control which version of python you are using while executing commands:
+```
+alias python2='python'
+alias python='python3'
+```
+3. install pygame `pip install pygame`
+4. download the repository: git clone git@github.com:Clayton-Noyes/snake_game.git
 
 ## Running the Game
 
 To start the game, navigate to the game directory and run the main.py file with Python:
-python snake/main.py
+`python snake/main.py`
+
 Enjoy the game!
 
 ## Controls
