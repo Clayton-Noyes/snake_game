@@ -1,0 +1,22 @@
+{
+  "colors": {
+    "background": [0, 0, 0],
+    "snake_body": [0, 255, 0],
+    "food": [213, 50, 80],
+    "text": [255, 255, 255],
+    "text_loss": [255, 0, 0]
+  },
+  "display_size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "snake_properties": {
+    "block_size": 10,
+    "speed": 30
+  },
+  "font_styles": {
+    "font_name": "arial",
+    "score_font_size": 35,
+    "message_font_size": 50
+  }
+}
